@@ -1,0 +1,43 @@
+.card-color-shadow[b-krzyh1tvwz] {
+    border: none;
+    background: rgba(238, 238, 238, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.vh-100[b-krzyh1tvwz] {
+    height: 100vh;
+}
+
+.bg-color[b-krzyh1tvwz] {
+    background-color: #00ADB5;
+}
+
+.text-color[b-krzyh1tvwz] {
+    color: #00ADB5;
+}
+
+.p-20[b-krzyh1tvwz] {
+    padding-top: 7rem;
+}
+
+.bg-color-body[b-krzyh1tvwz] {
+    background-color: #fffdfd;
+}
+
+.custom-b[b-krzyh1tvwz] {
+    border: none !important
+}
+
+.custom-b:focus[b-krzyh1tvwz] {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.custom-b:active[b-krzyh1tvwz] {
+    box-shadow: none !important;
+    border: none !important;
+}

@@ -1,0 +1,61 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = MedisoftDemo
+build_property.RootNamespace = MedisoftDemo
+build_property.ProjectDir = c:\Users\Can\Desktop\MedisoftDemo\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\Can\Desktop\MedisoftDemo
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Can/Desktop/MedisoftDemo/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Can/Desktop/MedisoftDemo/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Can/Desktop/MedisoftDemo/Shared/VoidLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFZvaWRMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Can/Desktop/MedisoftDemo/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Can/Desktop/MedisoftDemo/Components/HeaderComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZWFkZXJDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xc7l57f4fp
+
+[c:/Users/Can/Desktop/MedisoftDemo/Pages/CentralPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2VudHJhbFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2a9vvt7l8e
+
+[c:/Users/Can/Desktop/MedisoftDemo/Pages/HomePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jq43ssz9w1
+
+[c:/Users/Can/Desktop/MedisoftDemo/Pages/LoginPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-krzyh1tvwz
+
+[c:/Users/Can/Desktop/MedisoftDemo/Pages/TechnicianPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaG5pY2lhblBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-iienbcb10z
+
+[c:/Users/Can/Desktop/MedisoftDemo/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0feh5e8ayk
+
+[c:/Users/Can/Desktop/MedisoftDemo/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wrbok2tr18

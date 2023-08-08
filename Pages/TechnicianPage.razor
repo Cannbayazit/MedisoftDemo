@@ -1,0 +1,48 @@
+@page "/technician"
+
+
+<div class="h100" style="background-color: #f8f7f7;">
+    <div class="container pt-30">
+                <MudDataGrid T="Case" ReadOnly="false" EditTrigger="@DataGridEditTrigger.Manual" EditMode="@DataGridEditMode.Form" Items="@cases">
+                    <Columns>
+                        <PropertyColumn IsEditable="false" Property="x => x.time" Title="Vaka Tarihi" />
+                        <PropertyColumn IsEditable="false" Property="x => x.CaseType" Title="Vaka Türü" />
+                        <PropertyColumn IsEditable="false" Property="x => x.City" Title="Şehir" />
+                        <PropertyColumn IsEditable="false" Property="x => x.District" Title="İlçe" />
+                        <PropertyColumn IsEditable="false" Property="x => x.Neighhbour" Title="Mahalle" />
+                        <PropertyColumn IsEditable="false" Property="x => x.Street" Title="Sokak" />
+                        <PropertyColumn Hidden IsEditable="false" Property="x => x.PatientName" Title="Ad" />
+                       
+                        <PropertyColumn Hidden Property="x => x.PatientInformation" Title="Hasta Bilgisi" >
+                            <EditTemplate >
+                                <MudTextField Label="Hasta Bilgisi" Variant="Variant.Outlined" @bind-Value="context.Item.PatientInformation" class="form-control mt-4" Lines="3"></MudTextField>
+                            </EditTemplate>
+                        </PropertyColumn>
+                        <PropertyColumn Hidden Property="x => x.ComplaintDefinition" Title="Durum Bilgisi" >
+                            <EditTemplate>
+                                <MudTextField Label="Durum Bilgisi" Variant="Variant.Outlined" @bind-Value="context.Item.ComplaintDefinition" class="form-control mt-4" Lines="3"></MudTextField>
+                            </EditTemplate>
+                        </PropertyColumn>
+                        <PropertyColumn Hidden Property="x => x.FirstAid" Title="İlkyardım" >
+                            <EditTemplate>
+                                <MudTextField Label="İlkyardım" Variant="Variant.Outlined" @bind-Value="context.Item.FirstAid" class="form-control mt-4" Lines="3"></MudTextField>
+                            </EditTemplate>
+                        </PropertyColumn>
+                        <TemplateColumn  CellClass="d-flex justify-end">
+                            <CellTemplate>
+                                <MudIconButton  Size="@Size.Small" Icon="@Icons.Material.Outlined.Edit" OnClick="@context.Actions.StartEditingItemAsync" />
+                            </CellTemplate>
+                        </TemplateColumn>     
+                    </Columns>
+                </MudDataGrid>
+    </div>
+</div>
+
+
+@code {
+    public List<Case> cases = new List<Case>(){
+        new Case{Id=Guid.NewGuid(),time=DateTime.Now,CaseType="Trafik Kazası",City="Adana",District="Seyhan",Neighhbour="19.yüzyıl Mahallesi",Street="6805.sokak",Address="Melih Şah okulun sol çaprazı",ComplaintDefinition="bacak gopması",FirstAid="bacak dikiş",PatientInformation="bilinci açık",PatientName="Gökhan",PatientLastName="Gök",PhoneNumber="+9055555555",SelectedAmbulance=Guid.NewGuid(),SelectedTechnician=Guid.NewGuid()},
+         new Case{Id=Guid.NewGuid(),time=DateTime.Now,CaseType="Trafik Kazası",City="Adana",District="Seyhan",Neighhbour="19.yüzyıl Mahallesi",Street="6805.sokak",Address="Melih Şah okulun sol çaprazı",ComplaintDefinition="bacak gopması",FirstAid="bacak dikiş",PatientInformation="bilinci açık",PatientName="Gökhan",PatientLastName="Gök",PhoneNumber="+9055555555",SelectedAmbulance=Guid.NewGuid(),SelectedTechnician=Guid.NewGuid()},
+        };
+
+}
